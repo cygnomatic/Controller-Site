@@ -1,0 +1,41 @@
+// place your custom styles here
+
+/* 修改 heroText 的颜色 */
+.vp-hero-title {
+    /* 更加纯粹的金属蓝渐变 */
+    background: linear-gradient(120deg, rgb(30, 144, 255) 0%, #00bfff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem; /* 字体大小根据需要调整 */
+    font-weight: bold;
+  
+    
+    transition: background 0.3s ease, text-shadow 0.3s ease; /* 增加平滑的过渡效果 */
+  }
+  
+  /* 鼠标悬停时调整颜色和阴影 */
+  .vp-hero-title:hover {
+    background: linear-gradient(120deg, #4682b4 0%, #87cefa 100%); /* 悬停时的渐变颜色 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+#main-description {
+    color: rgb(179, 179, 179);
+    font-size: 1.3rem;
+    font-weight: 350;
+}
+
+/* 修改 action 的颜色 */
+/* 针对夜间模式的使用指南按钮的背景颜色设置为绿色 */
+.vp-hero-action.primary {
+    background-color: #1e90ff; /* 绿色背景色 */
+    border-color: #3e1adb; /* 设置边框颜色与背景一致 */
+    color: white; /* 按钮文字为白色 */
+  }
+  
+  /* 鼠标悬停时，略微调整颜色 */
+.vp-hero-action.primary:hover {
+    background-color: #1a74ce; /* 悬停时的更深蓝色 */
+  }
+  
