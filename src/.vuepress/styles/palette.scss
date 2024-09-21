@@ -1,2 +1,68 @@
-// you can change colors here
-$theme-color: #096dd9;
+// // you can change colors here
+// $theme-color: #096dd9;
+// // $theme-color: #f00;
+
+// 将主题颜色设置为红色
+// 注: 为保持一致，你还应该设置其他主题颜色变量
+$vp-c-accent: #5993d1;
+
+// 将边框颜色加深
+$vp-c-border: (
+  light: #ddd,
+  dark: #444,
+);
+
+// accent color
+
+$vp-c-accent-bg: (
+  light: #5993d1,
+  dark: #5993d1,
+) !default;
+$vp-c-accent-hover: (
+  light: #5993d1,
+  dark: #5993d1,
+) !default;
+$vp-c-accent-text: var(--vp-c-white) !default;
+$vp-c-accent-soft: (
+  light: rgb(16 185 129 / 14%),
+  dark: rgb(16 185 129 / 16%),
+) !default;
+
+// background
+$vp-c-bg: (
+  light: #fff,
+  dark: #1b1b1f,
+) !default;
+$vp-c-bg-alt: (
+  light: #f6f6f7,
+  dark: #161618,
+) !default;
+$vp-c-bg-elv: (
+  light: #fff,
+  dark: #202127,
+) !default;
+
+// text
+$vp-c-text: (
+  light: rgb(60 60 67),
+  dark: rgb(235 235 245 / 86%),
+) !default;
+
+// border
+$vp-c-border: (
+  light: #c2c2c4,
+  dark: #3c3f44,
+) !default;
+$vp-c-gutter: (
+  light: #e2e2e3,
+  dark: #000,
+) !default;
+
+// shadow
+$vp-c-shadow: (
+  light: rgb(0 0 0 / 15%),
+  dark: rgb(0 0 0 / 30%),
+) !default;
+
+// // control
+// $vp-c-control: (

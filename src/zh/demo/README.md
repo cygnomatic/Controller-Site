@@ -15,5 +15,5 @@ comment: false
     background="rgba(30, 180, 255, 0.3)"
     />
 
-<Catalog />
+<!-- /<Catalog /> -->
 

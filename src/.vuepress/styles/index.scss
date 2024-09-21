@@ -39,3 +39,66 @@
     background-color: #1a74ce; /* 悬停时的更深蓝色 */
   }
   
+  /* 修改返回顶部按钮的颜色 */
+button.vp-back-to-top-button circle {
+  stroke: #2196f3; /* 设置你想要的颜色，这里是蓝色 */
+}
+
+.back-to-top-icon {
+  background-color: #2196f3; /* 背景颜色，蓝色为例 */
+  border-radius: 50%; /* 圆形按钮 */
+  color: #2196f3; /* 图标的颜色 */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+}
+
+/* 修改导航栏活动链接的颜色 */
+/* 修改鼠标悬停时的下划线颜色 */
+a.route-link:hover::before {
+  background-color: #2196f3 !important; /* 修改为蓝色 */
+}
+
+/* 确保活动状态也为蓝色 */
+a.route-link.route-link-active::before {
+  background-color: #2196f3 !important; /* 活动状态下的颜色 */
+}
+
+/* 默认状态下保持原始颜色，不做任何修改 */
+svg.dark-icon {
+  fill: currentColor; /* 保持默认继承的颜色 */
+}
+
+/* 鼠标悬停时，将颜色改为蓝色 */
+button#color-mode-switch:hover svg.dark-icon {
+  fill: #2196f3 !important; /* 鼠标悬停时变为蓝色 */
+}
+
+/* 修改 "V2 文档" 链接的下划线颜色 */
+a.auto-link.external-link::before {
+  background-color: #2196f3 !important; /* 修改下划线为蓝色 */
+}
+
+/* 鼠标悬停时确保下划线保持蓝色 */
+a.auto-link.external-link:hover::before {
+  background-color: #2196f3 !important;
+}
+
+
+/* 保持默认状态下 GitHub 图标颜色不变 */
+svg.github-icon {
+  fill: currentColor; /* 保持默认的文本颜色 */
+}
+
+/* 当鼠标悬停时，避免变绿，并且可以变为蓝色 */
+a.vp-action-link:hover svg.github-icon {
+  fill: #2196f3 !important; /* 鼠标悬停时变为蓝色，或者保持默认颜色 */
+}
+
+/* 更具体的选择器，确保覆盖默认样式 */
+.hero .hero-avatar img {
+  margin-top: -50px; /* 调整这个数值来向上移动图片 */
+  /* 或者使用 position 进行更精确的调整 */
+  position: relative;
+  top: -50px;
+}
+
+
