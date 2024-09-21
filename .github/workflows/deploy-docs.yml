@@ -37,6 +37,10 @@ jobs:
           corepack enable
           pnpm install --frozen-lockfile
 
+      - name: 获取 Gist 内容
+        run: |
+          curl -o src/zh/Q-and-A/gist.md https://gist.githubusercontent.com/GzqHerry/48ab173db2821e57536aaffd8c06348e/raw
+
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192

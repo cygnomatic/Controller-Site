@@ -16,5 +16,14 @@
     "vue": "^3.5.5",
     "vuepress": "2.0.0-rc.15",
     "vuepress-theme-hope": "2.0.0-rc.53"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "heroku": "^9.2.1",
+    "vercel": "^37.5.3"
   }
 }
