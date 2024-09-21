@@ -15,7 +15,7 @@ titles:
   - 2023年杀穿全场勇夺殿军
   - 2024年一己之力一穿三夺得国二
   - 电控精髓之集大成者
-bgImage: 
+bgImage: https://s2.loli.net/2024/09/22/1Foelykznj6KSP4.png
 footer: false
 ---
 
