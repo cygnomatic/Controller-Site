@@ -20,21 +20,21 @@ export default hopeTheme({
   docsDir: "src",
 
   locales: {
-    // "/": {
-    //   // navbar
-    //   navbar: enNavbar,
+    "/": {
+      // navbar
+      navbar: enNavbar,
 
-    //   // sidebar
-    //   sidebar: enSidebar,
+      // sidebar
+      sidebar: enSidebar,
 
-    //   footer: "Default footer",
+      footer: "Default footer",
 
-    //   displayFooter: true,
+      displayFooter: true,
 
-    //   metaLocales: {
-    //     editLink: "Edit this page on GitHub",
-    //   },
-    // },
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
+      },
+    },
 
     /**
      * Chinese locale config
