@@ -20,21 +20,21 @@ export default hopeTheme({
   docsDir: "src",
 
   locales: {
-    "/": {
-      // navbar
-      navbar: enNavbar,
+    // "/": {
+    //   // navbar
+    //   navbar: enNavbar,
 
-      // sidebar
-      sidebar: enSidebar,
+    //   // sidebar
+    //   sidebar: enSidebar,
 
-      footer: "Default footer",
+    //   footer: "Default footer",
 
-      displayFooter: true,
+    //   displayFooter: true,
 
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
+    //   metaLocales: {
+    //     editLink: "Edit this page on GitHub",
+    //   },
+    // },
 
     /**
      * Chinese locale config
@@ -46,7 +46,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "北京邮电大学逐雁机器人实验室",
 
       displayFooter: true,
 
