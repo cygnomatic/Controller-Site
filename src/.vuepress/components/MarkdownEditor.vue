@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
       <markdown-editor v-model="markdownContent"></markdown-editor>
       <button @click="submitContent">提交</button>
@@ -29,4 +29,4 @@
     },
   };
   </script>
-  
+   -->
