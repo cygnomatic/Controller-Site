@@ -4,10 +4,10 @@ icon: home
 title: 项目主页
 heroImage: /cyg_logo_gradiant.svg
 #bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImage: https://s2.loli.net/2024/09/21/18o9vUNH2ZxcPje.png
+# bgImage: https://s2.loli.net/2024/09/21/18o9vUNH2ZxcPje.png
 #bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 #bgImageDark: https://s2.loli.net/2024/09/21/vScfgYVEohzeKNl.png  # 英雄
-bgImageDark: https://s2.loli.net/2024/09/21/W3p85PCxuMGYbrT.png # 无人机
+# bgImageDark: https://s2.loli.net/2024/09/21/W3p85PCxuMGYbrT.png # 无人机
 heroFullScreen: true
 bgImageStyle:
   background-attachment: fixed

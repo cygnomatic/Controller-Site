@@ -1,12 +1,14 @@
 ---
 title: 电控培训第一课
 icon: object-group
-permalink: /zh/lesson_one.html
+permalink: /zh/lesson-file/lesson_one.html
+order: 1
 category:
   - 课程
 tag:
   - 培训
 ---
+# 电控培训第一课
 
 ## 什么是编程语言？
 对于零基础的同学，这是我们最先要思考的问题。

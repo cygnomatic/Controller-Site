@@ -27,10 +27,17 @@ footer: false
 
 相关配置文档请见 [档案主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html#档案类型主页)。 -->
 
-<VPCard
+<!-- <VPCard
     title="2025赛季电控培训第一课"
     desc="慷慨解囊为学识，胜过一切闭门造车"
     logo=""
     link="/zh/lesson_one"
     background="rgba(30, 180, 255, 0.3)"
-    />
+    /> -->
+
+
+<div class="catalog-display-container">
+  <Catalog base='/zh/lesson-file' />
+</div>
+
+<!-- <Catalog /> -->
