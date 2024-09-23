@@ -21,9 +21,13 @@
   "keywords": [],
   "author": "",
   "dependencies": {
+    "@kangc/v-md-editor": "^1.7.12",
+    "axios": "^1.7.7",
     "body-parser": "^1.20.3",
     "express": "^4.21.0",
     "heroku": "^9.2.1",
-    "vercel": "^37.5.3"
+    "marked": "^14.1.2",
+    "vercel": "^37.5.3",
+    "vue-markdown-editor": "^0.2.0"
   }
 }

@@ -19,7 +19,7 @@ bgImage: https://s2.loli.net/2024/09/22/1Foelykznj6KSP4.png
 footer: false
 ---
 
-## 介绍
+## 电控资料
 
 这是一个档案主页,里面将会包括非常多电控相关的学习资料。
 
@@ -27,4 +27,10 @@ footer: false
 
 相关配置文档请见 [档案主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html#档案类型主页)。 -->
 
-等待更新~~
+<VPCard
+    title="2025赛季电控培训第一课"
+    desc="慷慨解囊为学识，胜过一切闭门造车"
+    logo=""
+    link="/zh/lesson_one"
+    background="rgba(30, 180, 255, 0.3)"
+    />

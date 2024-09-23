@@ -15,5 +15,13 @@ comment: false
     background="rgba(30, 180, 255, 0.3)"
     />
 
+<VPCard
+    title="电控文档集锦"
+    desc="荟萃最真实的知识，真正优秀的电控培训没有围墙"
+    logo=""
+    link="/zh/portfolio"
+    background="rgba(90, 178, 255, 0.5)"
+    />
+
 <!-- /<Catalog /> -->
 
